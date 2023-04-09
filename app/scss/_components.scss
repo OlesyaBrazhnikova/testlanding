@@ -1,0 +1,18 @@
+.btn {
+  margin: 75px 0 0;
+  padding: 20px 45px;
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  background-color: $btn-bg;
+  color: $color-white;
+  text-transform: uppercase;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: $color-white;
+    color: $btn-bg;
+  }
+}
